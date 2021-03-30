@@ -1,0 +1,11 @@
+#module load miniconda
+
+#conda create -n myenv
+
+#module load gcc/6.2.0 star/2.5.3a
+
+GENOMEDIR=/project/bf528/project_3/reference/rn4_STAR
+mkdir STAR_results
+
+readid=$1
+STAR --genomeDir $GENOMEDIR --readFilesIn samples/$1_1.fastq.gz samples/$1_2.fastq.gz --runThreadN 16 --readFilesCommand zcat --outFileNamePrefix STAR_results/$1_ --outSAMtype BAM SortedByCoordinate
