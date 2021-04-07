@@ -2,7 +2,7 @@
 
 #conda create -n myenv
 
-#module load gcc/6.2.0 star/2.5.3a
+module load gcc/6.2.0 star/2.5.3a
 
 GENOMEDIR=/project/bf528/project_3/reference/rn4_STAR
 mkdir STAR_results
