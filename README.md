@@ -15,7 +15,11 @@ Biologist: Ledia Gebremedhin
 
 # Repository Contents
 
+Analyst: 
+
 analyst_script1.R - A limma analysis of microarray data.
+
 analyst_rscript2.R - Computing concordance values for limma/deseq results. 
 
-Provide a brief description of each script/code file in this repo, what it does, and how to execute it
+  Analyst output files: Contains several scatter plots, histograms, and barplots produced by R scripts. As well as csv files from limma results. 
+
