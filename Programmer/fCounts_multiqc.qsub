@@ -1,0 +1,9 @@
+#!/bin/bash
+#$ -P bf528
+#$ -cwd
+source /etc/bashrc
+#$ -o run_mutliqc.stdout
+#$ -e run_mutliqc.stderr
+module load python2
+module load multiqc/1.6
+multiqc /projectnb/bf528/users/frazzled/project_3/programmer
